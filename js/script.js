@@ -122,7 +122,13 @@ thumbnails.forEach((thumbnail) => {
   });
 });
 
+
+
 // Add this new code for play button functionality
 document.querySelector(".btn-play").addEventListener("click", function () {
   window.location.href = "player.html";
+
+document.querySelector(".btn-About her").addEventListener("click", function () {
+  window.location.href = "abouther.html";
+  })
 });
